@@ -1,0 +1,24 @@
+@mixin text-style($fs, $lh, $ls: normal) {
+    font-size:$fs;
+    line-height:$lh;
+    letter-spacing:$ls;
+}
+
+@mixin get-color-yiq($background) {
+    $r: red($background);
+    $g: green($background);
+    $b: blue($background);
+    
+    $yiq: (($r*299) + ($g*587) + ($b*114))/1000;
+    
+    @if ($yiq >= 128) {
+      color: #111111;
+    }
+    @else {
+      color: #FFFFFF;
+    }
+  }
+
+@mixin border($width,$type,$color) {
+  border:$width $type $color;
+}

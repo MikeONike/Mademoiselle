@@ -1,0 +1,80 @@
+[General]
+PRODUCT_TITLE=%PRODUCT_TITLE%
+CONTINUE_SHORTCUT_NAME=Jatka %ORIG_PRODUCT_TITLE% asennusta
+FOOTER_TITLE=%FOOTER_TITLE_TEXT%
+FOOTER_INFO=<span id="tos_link_span"><a id="terms_of_use" href="%TERMS_OF_USE_URL%" target="_blank" onfocus="this.blur()" onclick="extdMainJs.openBrowser(this.href); return false;" >%TOS_TEXT%</a></span><span id="links_separator"> | </span><span id="privacy_link_span"><a id="privacy_policy" href="%PRIVACY_POLICY_URL%" target="_blank" onfocus="this.blur()" onclick="extdMainJs.openBrowser(this.href); return false;" >%PRIVACY_TEXT%</a></span><span id="links_separator2"> | </span><span id="eula_link_span"><a id="eulaLink" href="%EULA_URL%" target="_blank" onfocus="this.blur()" onclick="extdMainJs.openBrowser(this.href); return false;" >EULA</a></span><span id="links_separator3"> | </span><span id="sdk_pp_span"><a id="sdkpp" href="%SDK_PRIVACY_URL%" target="_blank" onfocus="this.blur()" onclick="extdMainJs.openBrowser(this.href); return false;" >%SDK_PP_TEXT%</a></span>
+PRIVACY_TEXT=Yksityisyydensuoja
+TOS_TEXT=Käyttöehtojen
+SDK_PP_TEXT=SDK-%PRIVACY_TEXT%
+FOOTER_LINK=<a href="" target="_blank" onfocus="this.blur()" onclick="extdMainJs.openBrowser(this.href); return false;">Miksi minulle näytetään tämä lisätarjous?</a>
+SPONSORED_OFFER=Sponsoroitu tarjous
+LANGUAGE_NAME=Suomi
+
+[exitPage]
+EXIT_TEXT=Jos päätät jättää kesken nyt, ohjelmistoasennuksesi keskeytetään.<br><br><span id="exitAcceptText">Suorita valittu ohjelmistoasennus loppuun napsauttamalla "<span id="accept_install_text"></span>".</span><br>Palaa edelliselle näytölle napsauttamalla "%BUTTON_BACK%".<br><span id="closeText">Jos haluat jättää asennusprosessin, napsauta X.</span><span id="leaveText">Jos lopuksi päätät jättää asennusprosessin, napsauta "%BUTTON_LEAVE%".</span>
+
+[welcomePage]
+LOGO_CAPTION=%PRODUCT_TITLE%
+QUICK_SPECS_TITLE=Tekniset tiedot
+QUICK_FILE_NAME=Tiedoston nimi:
+QUICK_FILE_SIZE=Tidedoston koko:
+QUICK_VERSION=Versio:
+QUICK_DATE_ADDED=Lisäyksen päiväys:
+WELCOME_ADVANCED_LINK=
+WELCOME_TITLE=Tervetuloa %PRODUCT_TITLE% Lataajaan!
+WELCOME_TEXT=Tämä lataa ohjelman %PRODUCT_TITLE% tietokoneellesi.<br />Valitse kohdekansio ja jatka napsauttamalla "%BUTTON_AGREE_NEXT%".
+CHOOSE_LANG=Valitse kieli:
+CUSTOM_INSTALL_DESC=Valitse kohde, jonne ohjelma asennetaan:
+SYSTEM_REQUIREMENTS=<b>Järjestelmävaatimukset</b> <span id="changingRequirementsText"><a id="show" href="" target="_blank" onfocus="this.blur()" onclick="extdMainJs.toggleRequirements('show'); return false;">%SHOW%</a><a id="hide" href="" target="_blank" onfocus="this.blur()" onclick="extdMainJs.toggleRequirements('hide'); return false;">%HIDE%</a></span><span id="actualRequirements">%REQUIREMENTS%</span>
+SHOW=Näytä...
+HIDE=Piilota...
+REQUIREMENTS=OS: Windows XP SP3, Windows Vista SP2, Windows 7, Windows 8.0, Windows 8.1 and Windows 10<br>CPU: Pentium processor at 90 MHz or higher<br>Memory: 16 MB RAM
+
+[settingsPage]
+CUSTOM_INSTALL_TITLE=%WELCOME_ADVANCED_LINK%
+CUSTOM_INSTALL_START_MENU=Luo aloitusvalikkomerkintä
+CUSTOM_INSTALL_DESKTOP=Luo työpöytäkuvake
+CUSTOM_INSTALL_QUICK_LAUNCH=Luo pikakäynnistyskuvake
+CUSTOM_INSTALL_SPACE_AVAILABLE=Tilaa jäljellä:
+CUSTOM_INSTALL_SPACE_REQUIRED=Tilaa tarvitaan:
+CUSTOM_INSTALL_BROWSE=Selaa...
+
+[progressPage]
+PROGRESS_TITLE=Ohjelmistoasi ladataan...
+PROGRESS_STAT_TEXT=kokonaismäärästä
+PROGRESS_STAT_FINISHED=Tiedostojen kopionti...
+PROGRESS_STATUS=Valmis... %PROGRESS%%
+
+[finishPage]
+FINISH_TITLE=<span id="okDownload1">Valmis!</span></span><span id="badDownload1">pahoillani.</br>lataus puutteellisia</span>
+FINISH_TEXT=<span id="okDownload2">Olet onnistuneesti ladannut ohjelman %PRODUCT_TITLE%. <span id="finishInstallNowText"><br />Napauta "%BUTTON_INSTALL%" asentaaksesi ohjelmiston tietokoneellesi.</span></span><span id="badDownload2">Tarvittava sovellus ei ole saatavilla tällä hetkellä. Yritä ladata myöhemmin.</span>
+UNINSTALL_TEXT=<br/>Jos haluat poistaa kaikki tämän asennusprosessin aikana asennetut ohjelmat, siirry kohtaan "Lisää/poista ohjelmia" ja napsauta "%PRODUCT_TITLE% Pakkaukset".
+
+[errorPage]
+ERROR_TITLE=Virhe verkkoyhteydessä
+ERROR_TEXT=Emme kyenneet muodostamaan yhteyttä latauspalvelimeen. Verkkoyhteytesi saattaa olla pois käytöstä tai palomuuri estää yhteydenoton. <br /><br />Ole hyvä ja tarkista verkon ja välityspalvelimen asetukset ja paina sitten alla olevaa "%BUTTON_TRYAGAIN%" painiketta.
+
+[Buttons]
+BUTTON_BACK=Edellinen
+BUTTON_LATER=Myöhemmin
+BUTTON_CANCEL=Peru
+BUTTON_CLOSE=Sulje
+BUTTON_DECLINE=Kieltäydyn
+BUTTON_ACCEPT=Hyväksy
+BUTTON_INSTALL=Asenna
+BUTTON_ACCEPT_INSTALL=Hyväksy & Asenna
+BUTTON_OPEN=Avoin
+BUTTON_FINISH=Lopettaa
+BUTTON_TRYAGAIN=Yritä Uudestaan
+BUTTON_LEAVE=Jättäkää
+BUTTON_SKIP_ALL=Ohita kaikki
+MSG_STEP=Vaihe %X% annettu %Y%
+BUTTON_AGREE_NEXT=Seuraava vaihe
+BUTTON_NEXT=Jatka
+
+[Messages]
+MSG_EXIT=Oletko varma, että haluat poistua asennusohjelmasta?
+MSG_CANT_EXIT=We are unable to stop the installation at this point. You can always uninstall it once the installation is finished.
+MSG_NETWORK_ERROR=Ole hyvä ja ota verkkoyhteys ja paina sitten "Ok" jatkaaksesi.
+MSG_EXTRACT_ERROR=Asennusohjelman suorittama tiedostojen purku epäonnistui.
+MSG_NOT_ENOUGH_SPACE=Valitulla levyasemalla ei ole tarpeeksi tilaa.<br>Valitse toinen levyasema.

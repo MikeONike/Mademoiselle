@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mademoiselle | About</title>
+
+    <!--iOS compatibility-->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="Website title">
+    <link rel="apple-touch-icon" href="apple-icon-180x180.png">
+
+    <!--Android compatibility-->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="application-name" content="Website title">
+    <link rel="icon" type="image/png" href="android-icon-192x192.png">
+
+    <!-- SCSS file -->
+    <link rel="stylesheet" href="scss/theme.css">
+
+
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container">
+
+            <nav class="head-nav">
+
+                <a href="index.html" class="logo">
+                    <img src="img/logo/logo.png" alt="logo">
+                </a><!-- logo end-->
+
+                <button class="ham-menu">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </button><!-- ham-menu end -->
+
+                <ul class="head-nav-links">
+                    <li><a href="about.html">about</a></li>
+                    <li><a href="services.html">services</a></li>
+                    <li><a href="blog.html">blog</a></li>
+                    <li><a class="active" href="contact.html">contact</a></li>
+                </ul><!-- head-nav-links end -->
+
+            </nav>
+            <!--head-nav end -->
+        </div>
+
+    </header>
+    <!--header end-->
+
+    <main class="contact">
+
+        <section class="contact-form">
+            <div class="container">
+
+                <div class="contact-input">
+                    <h2 class="underline">Please contact us using the form bellow</h2>
+                    <form id="contact-form" class="contact-form" action="#" method="GET">
+                        <p>
+                            <input type="text" name="name" value="" required placeholder="Name and surname*">
+                        </p>
+                        <p>
+                            <input type="email" name="email" value="" required placeholder="Email address*">
+                        </p>
+                        <p>
+                            <input type="text" name="subject" value=""  placeholder="Subject*">
+                        </p>
+                        <p>
+                            <textarea name="message" minlength="20" required placeholder="Enter your message*"></textarea>
+                        </p>
+                        <button type="submit">send message</button>
+                    </form>
+                </div>
+                <!--contact-form end-->
+
+                <div class="map-wrapper">
+                    <div class="map">
+                        <iframe class="map"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9592.027615430194!2d-73.95762348893243!3d40.77728889804562!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2srs!4v1585932677916!5m2!1sen!2srs"
+                            frameborder="0" allowfullscreen="" aria-hidden="false" tabindex="0">
+                        </iframe><!--map end-->
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--contact end-->
+
+        <section class="contact-info">
+            <p>
+                <span>146 Douglas Dale Suite 343</span>
+                <span>560-748-5959</span>
+                <span>cullen_mueller@yahoo.com</span>
+            </p>
+        </section>
+
+
+    </main>
+    <!--main end-->
+
+    <footer class="footer">
+        <div class="container">
+
+            <nav class="social-nav">
+                <a target="_blank" href="https://www.facebook.com" class="fab fa-facebook-f"></a>
+                <a target="_blank" href="https://www.twitter.com" class="fab fa-twitter"></a>
+                <a target="_blank" href="https://www.instagram.com" class="fab fa-instagram"></a>
+            </nav>
+            <!--social-nav end-->
+
+            <p class="copy">Copyright &copy; 2019 Mademoiselle</p>
+
+        </div>
+    </footer>
+    <!--footer end-->
+
+
+
+
+
+
+
+
+
+    <!-- JS files -->
+    <script src="JS/jQuery.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="JS/jquery.validate.js"></script>
+    <script src="JS/additional-methods.js"></script>
+    <script src="JS/script.js"></script>
+
+    <!-- font-awesome -->
+    <script src="https://kit.fontawesome.com/1271c8c1a6.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

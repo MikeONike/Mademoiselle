@@ -1,0 +1,81 @@
+﻿[General]
+PRODUCT_TITLE=%PRODUCT_TITLE%
+CONTINUE_SHORTCUT_NAME=Continuar con la instalación de %ORIG_PRODUCT_TITLE%
+FOOTER_TITLE=%FOOTER_TITLE_TEXT%
+FOOTER_INFO=<span id="tos_link_span"><a id="terms_of_use" href="%TERMS_OF_USE_URL%" target="_blank" onfocus="this.blur()" onclick="extdMainJs.openBrowser(this.href); return false;" >%TOS_TEXT%</a></span><span id="links_separator"> | </span><span id="privacy_link_span"><a id="privacy_policy" href="%PRIVACY_POLICY_URL%" target="_blank" onfocus="this.blur()" onclick="extdMainJs.openBrowser(this.href); return false;" >%PRIVACY_TEXT%</a></span><span id="links_separator2"> | </span><span id="eula_link_span"><a id="eulaLink" href="%EULA_URL%" target="_blank" onfocus="this.blur()" onclick="extdMainJs.openBrowser(this.href); return false;" >EULA</a></span><span id="links_separator3"> | </span><span id="sdk_pp_span"><a id="sdkpp" href="%SDK_PRIVACY_URL%" target="_blank" onfocus="this.blur()" onclick="extdMainJs.openBrowser(this.href); return false;" >%SDK_PP_TEXT%</a></span>
+PRIVACY_TEXT=Política de Privacidad
+TOS_TEXT=Términos de Uso
+SDK_PP_TEXT=SDK-%PRIVACY_TEXT%
+FOOTER_LINK=<a href="http://sourceforge.net/devshare/why" target="_blank" onfocus="this.blur()" onclick="extdMainJs.openBrowser(this.href); return false;">¿Por qué aparece esta oferta opcional?</a>
+SPONSORED_OFFER=Oferta Patrocinado
+LANGUAGE_NAME=Español
+
+[exitPage]
+EXIT_TEXT=Si usted decide dejar el proceso de instalacion, este proceso se detendra totalmente.<br><br><span id="exitAcceptText">Haga clic en "<span id="accept_install_text"></span>" para completar la instalación del programa seleccionado.</span><br>Haga clic "%BUTTON_BACK%" para regresar a la pantalla previa.<br><span id="closeText">Si finalmente decide dejar el proceso de instalacion haga clic en X.</span><span id="leaveText">Si finalmente decide abandonar el proceso de instalación, haga clic en "%BUTTON_LEAVE%".</span>
+
+[welcomePage]
+LOGO_CAPTION=%PRODUCT_TITLE%
+QUICK_SPECS_TITLE=Especificaciones
+QUICK_FILE_NAME=Nombre de archivo:
+QUICK_FILE_SIZE=Tamaño de archivo:
+QUICK_VERSION=Versión:
+QUICK_DATE_ADDED=Data adicionada:
+WELCOME_ADVANCED_LINK=
+WELCOME_TITLE=¡Bienvenido al gestor de descargas %PRODUCT_TITLE%!
+WELCOME_TEXT=Esto descargará %PRODUCT_TITLE% en tu ordenador.<br />Por favor, elige la carpeta de destino y haz clic en "%BUTTON_AGREE_NEXT%" para continuar.
+CHOOSE_LANG=Selecciona tu idioma:
+CUSTOM_INSTALL_DESC=Elige dónde debería instalarse tu programa:
+SYSTEM_REQUIREMENTS=<b>Requisitos del sistema</b> <span id="changingRequirementsText"><a id="show" href="" target="_blank" onfocus="this.blur()" onclick="extdMainJs.toggleRequirements('show'); return false;">%SHOW%</a><a id="hide" href="" target="_blank" onfocus="this.blur()" onclick="extdMainJs.toggleRequirements('hide'); return false;">%HIDE%</a></span><span id="actualRequirements">%REQUIREMENTS%</span>
+SHOW=Mostrar...
+HIDE=Ocultar...
+REQUIREMENTS=OS: Windows XP SP3, Windows Vista SP2, Windows 7, Windows 8.0, Windows 8.1 and Windows 10<br>CPU: Pentium processor at 90 MHz or higher<br>Memory: 16 MB RAM
+
+
+[settingsPage]
+CUSTOM_INSTALL_TITLE=%WELCOME_ADVANCED_LINK%
+CUSTOM_INSTALL_START_MENU=Crear comenzar entrada de menú
+CUSTOM_INSTALL_DESKTOP=Crear icono de escritorio
+CUSTOM_INSTALL_QUICK_LAUNCH=Crear icono de inicio rápido
+CUSTOM_INSTALL_SPACE_AVAILABLE=Espacio disponible: 
+CUSTOM_INSTALL_SPACE_REQUIRED=Espacio requerido: 
+CUSTOM_INSTALL_BROWSE=Busque...
+
+[progressPage]
+PROGRESS_TITLE=Tu software se está descargando...
+PROGRESS_STAT_TEXT=de
+PROGRESS_STAT_FINISHED=Copiando archivos...
+PROGRESS_STATUS=Completado... %PROGRESS%%
+
+[finishPage]
+FINISH_TITLE=<span id="okDownload1">¡Todo completado!</span><span id="badDownload1">lo siento.</br>El proceso de descarga incompleta</span>
+FINISH_TEXT=<span id="okDownload2">Has descargado correctamente %PRODUCT_TITLE%. <span id="finishInstallNowText"><br />Haz clic en "%BUTTON_INSTALL%" para instalar el software en tu equipo.</span></span><span id="badDownload2">La aplicación requerida no está disponible en este momento. Pruebe a descargar más tarde.</span>
+UNINSTALL_TEXT=<br/>Para desinstalar todo el software instalado durante este proceso de instalación, vaya a Instalar/desinstalar programas y haga clic en los paquetes "%PRODUCT_TITLE%".
+
+[errorPage]
+ERROR_TITLE=Error de conexión a Internet
+ERROR_TEXT=No podemos conectarnos al servidor de la descarga. Parece que tu conexión a Internet no funciona o está protegida con cortafuegos. <br /><br />Comprueba tus ajustes de Internet y del proxy, y a continuación haz clic en el botón "%BUTTON_TRYAGAIN%".
+
+[Buttons]
+BUTTON_BACK=Atrás
+BUTTON_LATER=Más tarde
+BUTTON_CANCEL=Cancelar
+BUTTON_CLOSE=Cerrar
+BUTTON_DECLINE=Ignorar
+BUTTON_ACCEPT=Aceptar
+BUTTON_ACCEPT_INSTALL=Aceptar & Instalar
+BUTTON_INSTALL=Instalar ahora
+BUTTON_OPEN=Abrir
+BUTTON_FINISH=Finalizar
+BUTTON_TRYAGAIN=Inténtalo de nuevo
+BUTTON_LEAVE=Abandonar
+BUTTON_SKIP_ALL=Saltar Todos
+MSG_STEP=Paso %X% de %Y%
+BUTTON_AGREE_NEXT=Próximo
+BUTTON_NEXT=Continuar
+
+[Messages]
+MSG_EXIT=Seguro que quieres salir del instalador?
+MSG_CANT_EXIT=No podemos detener el proceso de instalación en este punto. Siempre puede desinstalarlo una vez que haya finalizado la instalación.
+MSG_NETWORK_ERROR=Conéctate a Internet y haz clic en "Aceptar" para continuar.
+MSG_EXTRACT_ERROR=El instalador no pudo extraer los archivos.
+MSG_NOT_ENOUGH_SPACE=No hay espacio suficiente en el disco seleccionado.<br>Por favor, elige otro disco.

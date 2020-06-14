@@ -1,0 +1,104 @@
+$haeading-font:$bodoni;
+$tags-bg:$light-gray;
+$hover-color:$pink;
+
+.blog-article {
+    text-align: justify;
+    margin-bottom: 7rem;
+
+    .blog-article-head {
+        padding: 2rem;
+        margin-bottom: 6rem;
+
+        .blog-article-date {
+            font-family: $haeading-font;
+            font-weight: 900;
+            @include text-style(1.4rem, 1.7rem, 1px);
+            margin-bottom: 2rem;
+
+            .blog-category {
+                transition:0.3s ease;
+                &:hover {
+                    color:darken($hover-color, 10%);
+                }
+            }
+
+            span {
+                font-style: italic;
+                font-weight: 400;
+            }
+        }
+
+        .blog-article-text {
+            @include text-style(1.8rem, 2.8rem);
+            font-weight: 300;
+            margin-bottom: 2rem;
+        }
+    }
+
+    .blog-article-main {
+        .wrapper {
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        img {
+            margin-bottom: 6rem;
+        }
+
+        p {
+
+
+            display: block;
+            margin-bottom: 3rem;
+            @include text-style(1.8rem, 2.6rem);
+            font-weight: 300;
+
+        }
+
+        .tags {
+            font-family: $haeading-font;
+            font-style: italic;
+            line-height: 2.7rem;
+
+            div {
+                display: flex;
+            }
+
+            a {
+                font-style: normal;
+                padding: 0.5rem 2.5rem;
+                background: $tags-bg;
+                display: block;
+                margin-right: 1rem;
+                transition: 0.3s ease;
+
+                &:last-of-type {
+                    margin: 0;
+                }
+
+                &:hover {
+                    @include get-color-yiq(darken($tags-bg, 50%));
+                    background: darken($tags-bg, 50%);
+                }
+            }
+        }
+    }
+}
+
+@media (min-width:992px) {
+    .blog-article {
+        .blog-article-head {
+            .blog-article-content {
+                padding: 0 6rem 0 0;
+            }
+
+            .container {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+        }
+    }
+}

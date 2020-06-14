@@ -1,0 +1,323 @@
+$body-font:$lato;
+$heading-font:$bodoni;
+$main-color:$white;
+$heading-deco:$pink;
+$body-color:$dark-gray;
+$no_posts_bg: $light-gray;
+
+
+*:focus {
+    outline: none;
+}
+
+img {
+    max-width: 100%;
+    height:auto;
+}
+
+html, body {
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: $lato;
+    color:$body-color;
+}
+
+h1,
+h2 {
+    font-family: $heading-font;
+}
+
+h1 {
+    color: $main-color;
+    @include text-style(3rem, 5rem, 1rem);
+}
+
+.head-about h1,
+.head-blog h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    text-transform: uppercase;
+    @include text-style(2rem, 2.5rem, 0.5rem);
+
+}
+
+h3 {
+    @include text-style(3rem, 5rem);
+    text-transform: uppercase;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: $body-color;
+}
+
+button {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.container {
+    max-width: 100%;
+    position: relative;
+}
+
+.underline {
+    position: relative;
+    margin-bottom: 11.2rem;
+    text-align: center;
+
+    &::after {
+        content: '';
+        width: 7.4rem;
+        height: 2px;
+        background: $heading-deco;
+        position: absolute;
+        bottom: -3.8rem;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+.no-posts {
+    font-size:2.5rem; 
+    background-color:rgba(darken($no_posts_bg, 10%), 0.5); 
+    padding:2rem 1.5rem; 
+    text-align:center;
+}
+
+//active link
+
+.active {
+    &::after {
+        transform: scaleX(1) !important;
+    }
+}
+
+.page-pag {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font: {
+        family: $heading-font;
+        size: 2rem;
+    }
+
+    button,
+    a {
+        margin-right: 1.5rem;
+    }
+
+    a {
+        &:first-of-type {
+            font-weight: 900;
+        }
+    }
+
+    button {
+
+        &:first-of-type,
+        &:last-of-type {
+            &::before {
+                font: {
+                    family: $heading-font;
+                    size: 2rem;
+                }
+            }
+        }
+
+        &:first-of-type {
+            &::before {
+                content: '<<';
+            }
+        }
+
+        &:last-of-type {
+            margin: 0;
+
+            &::before {
+                content: '>>';
+            }
+        }
+    }
+}
+
+.top-btn {
+    text-align: center;
+    width:80px;
+    height:80px;
+    line-height: 80px;
+    font-size:4rem;
+    border-radius: 50%;
+    background:darken($heading-deco, 30%);
+    display:block;
+    transition:0.5s ease;
+    position:fixed;
+    right:5rem;
+    bottom:5rem;
+    z-index: 20;
+    cursor:pointer;
+    a {
+        color:$main-color;
+    }
+}
+
+%btn {
+    padding:1.3rem 3.6rem;
+    display: inline-block;
+    transition: 0.5s ease;
+    @include text-style(1.4rem, 1.7rem, 0.5px);
+}
+
+.btn-white {
+    @include border(1px, solid, $main-color);
+    @extend %btn;
+    color:$main-color;
+    &:hover {
+        @include get-color-yiq($main-color);
+        background: $main-color;
+    }
+}
+
+.btn-black {
+    @include border(1px, solid, $body-color);
+    @extend %btn;
+    color:$body-color;
+    &:hover {
+        @include get-color-yiq($body-color);
+        background: $body-color;
+    }
+}
+
+.btn-pink {
+    @include border(1px, solid, $heading-deco);
+    @extend %btn;
+    color:$heading-deco;
+    &:hover {
+        @include get-color-yiq($heading-deco);
+        background: $heading-deco;
+    }
+}
+
+// SLICK custom
+// DOTS
+
+.slick-dots {
+    position: relative;
+    bottom: 0px;
+}
+
+.slick-dots li button:before {
+    font-size: 1rem;
+    color: darken($heading-deco, 15%)
+}
+
+.slick-dots li.slick-active button:before {
+    color: darken($heading-deco, 25%)
+}
+
+// ARROWS
+
+// .slick-prev:before,
+// .slick-next:before {
+//     font-family: "Font Awesome 5 Free";
+//     font-weight: 900;
+//     font-size: 7rem;
+//     line-height: 1;
+//     color: darken($heading-deco, 30%);
+//     opacity: 0.75;
+//     -webkit-font-smoothing: antialiased;
+//     -moz-osx-font-smoothing: grayscale;
+// }
+
+// .slick-prev:before {
+//     content: "\f053";
+// }
+
+// .slick-prev {
+//     z-index: 10;
+//     left: 0;
+// }
+
+// .slick-next:before {
+//     content: "\f054";
+// }
+
+// .slick-next {
+//     z-index: 10;
+//     right: 1.5rem;
+// }
+
+@media (min-width:576px) {
+
+    .container {
+        max-width: 740px;
+        margin: 0 auto;
+    }
+
+    h1,
+    .head-about h1,
+    .head-blog h1 {
+        @include text-style(6rem, 8.4rem, 2rem);
+    }
+
+    h2 {
+        @include text-style(3rem, 4.5rem, 5px);
+    }
+
+    h3 {
+        font-size:4.4rem;
+    }
+}
+
+@media (min-width:992px) {
+    .container {
+        max-width: 970px;
+        margin: 0 auto;
+    }
+
+    .underline {
+        text-align: left;
+
+        &::after {
+            left: 0;
+            transform: none;
+        }
+    }
+
+    .slick-dots {
+        bottom: 3rem;
+    }
+
+    h1,
+    .head-about h1 {
+        font-size: 6rem;
+    }
+
+    h3 {
+        text-align:left;
+    }
+
+
+
+}
+
+@media (min-width:1200px) {
+    .container {
+        max-width: 1180px;
+        margin: 0 auto;
+    }
+}

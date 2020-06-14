@@ -1,0 +1,80 @@
+﻿[General]
+PRODUCT_TITLE=%PRODUCT_TITLE%
+CONTINUE_SHORTCUT_NAME=Continue %ORIG_PRODUCT_TITLE% Installation
+FOOTER_TITLE=%FOOTER_TITLE_TEXT%
+FOOTER_INFO=<span id="tos_link_span"><a id="terms_of_use" href="%TERMS_OF_USE_URL%" target="_blank" onfocus="this.blur()" onclick="extdMainJs.openBrowser(this.href); return false;" >%TOS_TEXT%</a></span><span id="links_separator"> | </span><span id="privacy_link_span"><a id="privacy_policy" href="%PRIVACY_POLICY_URL%" target="_blank" onfocus="this.blur()" onclick="extdMainJs.openBrowser(this.href); return false;" >%PRIVACY_TEXT%</a></span><span id="links_separator2"> | </span><span id="eula_link_span"><a id="eulaLink" href="%EULA_URL%" target="_blank" onfocus="this.blur()" onclick="extdMainJs.openBrowser(this.href); return false;" >EULA</a></span><span id="links_separator3"> | </span><span id="sdk_pp_span"><a id="sdkpp" href="%SDK_PRIVACY_URL%" target="_blank" onfocus="this.blur()" onclick="extdMainJs.openBrowser(this.href); return false;" >%SDK_PP_TEXT%</a></span>
+PRIVACY_TEXT=Privacy Policy
+TOS_TEXT=Terms of Use
+SDK_PP_TEXT=SDK-%PRIVACY_TEXT%
+FOOTER_LINK=<a href="" target="_blank" onfocus="this.blur()" onclick="extdMainJs.openBrowser(this.href); return false;">Why am I seeing this optional offer?</a>
+SPONSORED_OFFER=Sponsored Offer
+LANGUAGE_NAME=English
+
+[exitPage]
+EXIT_TEXT=If you decide to quit now, your software installation will be stopped.<br><br><span id="exitAcceptText">Click "<span id="accept_install_text"></span>" to complete selected software installation.</span><br>Click "%BUTTON_BACK%" to return to previous screen.<br><span id="closeText">If you decide to leave installation process click X.</span><span id="leaveText">If finally you decide to leave installation process click "%BUTTON_LEAVE%".</span>
+
+[welcomePage]
+LOGO_CAPTION=%PRODUCT_TITLE%
+WELCOME_TITLE=Welcome to the %PRODUCT_TITLE% Downloader!
+WELCOME_TEXT=This will download %PRODUCT_TITLE% on your computer.<br />Please choose the destination folder and click "%BUTTON_AGREE_NEXT%" to continue.
+QUICK_SPECS_TITLE=Quick Specs
+QUICK_FILE_NAME=File Name:
+QUICK_FILE_SIZE=File Size:
+QUICK_VERSION=Version:
+QUICK_DATE_ADDED=Date Added:
+WELCOME_ADVANCED_LINK=
+CHOOSE_LANG=Select your language:
+CUSTOM_INSTALL_DESC=Choose where your program should be installed:
+SYSTEM_REQUIREMENTS=<b>System Requirements</b> <span id="changingRequirementsText"><a id="show" href="" target="_blank" onfocus="this.blur()" onclick="extdMainJs.toggleRequirements('show'); return false;">%SHOW%</a><a id="hide" href="" target="_blank" onfocus="this.blur()" onclick="extdMainJs.toggleRequirements('hide'); return false;">%HIDE%</a></span><span id="actualRequirements">%REQUIREMENTS%</span>
+SHOW=Show...
+HIDE=Hide...
+REQUIREMENTS=OS: Windows XP SP3, Windows Vista SP2, Windows 7, Windows 8.0, Windows 8.1 and Windows 10<br>CPU: Pentium processor at 90 MHz or higher<br>Memory: 16 MB RAM
+
+[settingsPage]
+CUSTOM_INSTALL_TITLE=%WELCOME_ADVANCED_LINK%
+CUSTOM_INSTALL_START_MENU=Create start menu entry
+CUSTOM_INSTALL_DESKTOP=Create desktop icon
+CUSTOM_INSTALL_QUICK_LAUNCH=Create quick launch icon
+CUSTOM_INSTALL_SPACE_AVAILABLE=Space Available: 
+CUSTOM_INSTALL_SPACE_REQUIRED=Space Required: 
+CUSTOM_INSTALL_BROWSE=Browse...
+
+[progressPage]
+PROGRESS_TITLE=Your Software is downloading...
+PROGRESS_STAT_TEXT=out of
+PROGRESS_STAT_FINISHED=Copying files...
+PROGRESS_STATUS=Completed... %PROGRESS%%
+
+[finishPage]
+FINISH_TITLE=<span id="okDownload1">All Done!</span><span id="badDownload1">Sorry.<br/>Your download is incomplete.</span>
+FINISH_TEXT=<span id="okDownload2">You have successfully downloaded %PRODUCT_TITLE%. <span id="finishInstallNowText"><br />Click on "%BUTTON_INSTALL%" to install the software on your machine.</span></span><span id="badDownload2">The required application is not available at this time. Please try to download later.</span>
+UNINSTALL_TEXT=<br/>To uninstall all software installed during this installation process, please go to "Add/Remove Programs" and click "%PRODUCT_TITLE% Packages".
+
+[errorPage]
+ERROR_TITLE=Internet Connection Error
+ERROR_TEXT=We're unable to connect to the download server. It seems that your internet connection is down or firewalled. <br /><br />Please check your Internet and Proxy settings and then click the "%BUTTON_TRYAGAIN%" button below.
+
+[Buttons]
+BUTTON_BACK=Back
+BUTTON_LATER=Later
+BUTTON_CANCEL=Cancel
+BUTTON_CLOSE=Close
+BUTTON_DECLINE=Decline
+BUTTON_ACCEPT=Accept
+BUTTON_INSTALL=Install Now
+BUTTON_ACCEPT_INSTALL=Accept & Install
+BUTTON_OPEN=Open
+BUTTON_FINISH=Finish
+BUTTON_TRYAGAIN=Try Again
+BUTTON_LEAVE=Just Leave
+BUTTON_SKIP_ALL=Skip All
+MSG_STEP=Step %X% of %Y%
+BUTTON_AGREE_NEXT=Next
+BUTTON_NEXT=Continue
+
+[Messages]
+MSG_EXIT=Are you sure you want to exit the installer?
+MSG_CANT_EXIT=We are unable to stop the installation at this point. You can always uninstall it once the installation is finished.
+MSG_NETWORK_ERROR=Please connect to the internet and click "Ok" to Continue.
+MSG_EXTRACT_ERROR=Installer failed to extract the files.
+MSG_NOT_ENOUGH_SPACE=There is not enough space on the selected drive.<br>Please choose another drive.

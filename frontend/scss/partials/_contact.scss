@@ -1,0 +1,186 @@
+$input-bg: $light-gray;
+$input-text: $dark-gray;
+$input-font: $lato;
+$info-bg: $pink;
+$btn-hover: $white;
+
+.contact {
+
+    .contact-form {
+        padding: 2rem;
+
+        margin-bottom: 3rem;
+
+        h2 {
+            text-align: center;
+        }
+
+        form {
+
+            input:not([type="submit"]),
+            textarea {
+                display: block;
+                width: 100%;
+                padding: 2.2rem 1.9rem;
+                border: none;
+                background: $input-bg;
+
+                font: {
+                    size: 1.6rem;
+                    family: $input-font;
+                    weight: 300;
+                }
+
+                color:$input-text;
+                border-radius: 3px;
+                transition: 0.3s ease;
+
+                &::placeholder {
+                    @include text-style(1.6rem, 2.5rem, -0.23px);
+                }
+
+                &:focus {
+                    box-shadow: 0 0 1rem 5px darken($input-bg, 15%);
+                }
+            }
+
+            textarea {
+                height: 200px;
+                max-width: 100%;
+            }
+
+            input[type="submit"] {
+                background: $btn-hover;
+                padding: 1.3rem 3.5rem;
+                border: 1px solid $input-text;
+                text-transform: uppercase;
+                @include text-style(1.4rem, 1.7rem, 0.5px);
+                font-family: $input-font;
+                transition: 0.2s ease;
+
+                &:hover {
+                    cursor: pointer;
+                    background-color: $input-text;
+                    color: $btn-hover;
+                }
+            }
+        }
+
+        .map {
+            p{
+
+                iframe {
+    
+                    height: 500px;
+                    width: 100%;
+    
+                }
+            }
+        }
+
+        p {
+            margin-bottom: 3rem;
+        }
+
+        div.wpcf7-validation-errors,
+        div.wpcf7-acceptance-missing,
+        div.wpcf7-mail-sent-ng, 
+        div.wpcf7-aborted {
+            border: none;
+            font-size: 2.5rem;
+            background-color: rgba(255, 0, 0, 0.664);
+            padding: 2rem 1.5rem;
+            text-align: center;
+            color:$input-text;
+            border-radius:1rem;
+        }
+    }
+
+    .contact-info {
+        background: $info-bg;
+        padding: 6.5rem 0;
+
+        p {
+            display: flex;
+            flex-flow: column nowrap;
+            align-items: center;
+            @include text-style(2rem, 2.5rem);
+
+            span {
+                display: block;
+                margin-bottom: 2rem;
+
+                &:last-of-type {
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+
+}
+
+@media (min-width:992px) {
+    .contact {
+        .contact-form {
+            padding: 0;
+            margin-bottom: 11rem;
+
+
+            .container {
+
+                display: flex;
+                justify-content: space-between;
+                align-items: stretch;
+            }
+
+            .underline {
+                &::after {
+                    left: 50%;
+                    transform: translateX(-50%);
+                }
+            }
+
+            .contact-input,
+            .map-wrapper {
+                flex: 0 0 48%;
+                width: 48%;
+            }
+
+            .map-wrapper {
+                .map,p {
+                    width: 100%;
+                    height: 100%;
+
+                    iframe {
+                        height: 100%;
+                    }
+                }
+            }
+
+        }
+
+        .contact-info {
+            margin-bottom: 4.6rem;
+
+            p {
+                span {
+                    margin-bottom: 3.2rem;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+// display:flex;
+// justify-content: space-between;
+// align-items: center;

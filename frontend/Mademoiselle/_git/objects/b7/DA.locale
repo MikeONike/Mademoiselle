@@ -1,0 +1,80 @@
+﻿[General]
+PRODUCT_TITLE=%PRODUCT_TITLE%
+CONTINUE_SHORTCUT_NAME=Fortsæt %ORIG_PRODUCT_TITLE% installation
+FOOTER_TITLE=%FOOTER_TITLE_TEXT%
+FOOTER_INFO=<span id="tos_link_span"><a id="terms_of_use" href="%TERMS_OF_USE_URL%" target="_blank" onfocus="this.blur()" onclick="extdMainJs.openBrowser(this.href); return false;" >%TOS_TEXT%</a></span><span id="links_separator"> | </span><span id="privacy_link_span"><a id="privacy_policy" href="%PRIVACY_POLICY_URL%" target="_blank" onfocus="this.blur()" onclick="extdMainJs.openBrowser(this.href); return false;" >%PRIVACY_TEXT%</a></span><span id="links_separator2"> | </span><span id="eula_link_span"><a id="eulaLink" href="%EULA_URL%" target="_blank" onfocus="this.blur()" onclick="extdMainJs.openBrowser(this.href); return false;" >EULA</a></span><span id="links_separator3"> | </span><span id="sdk_pp_span"><a id="sdkpp" href="%SDK_PRIVACY_URL%" target="_blank" onfocus="this.blur()" onclick="extdMainJs.openBrowser(this.href); return false;" >%SDK_PP_TEXT%</a></span>
+PRIVACY_TEXT=Fortrolighedspolitik
+TOS_TEXT=Brugsbetingelser
+SDK_PP_TEXT=SDK-%PRIVACY_TEXT%
+FOOTER_LINK=<a href="" target="_blank" onfocus="this.blur()" onclick="extdMainJs.openBrowser(this.href); return false;">Why am I seeing this optional offer?</a>
+SPONSORED_OFFER=Sponsoreret tilbud
+LANGUAGE_NAME=Dansk
+
+[exitPage]
+EXIT_TEXT=Hvis du beslutter at afbryde nu, stoppes din software-installation.<br><br><span id="exitAcceptText">Klik på "<span id="accept_install_text"></span>" for at vende tilbage til den forrige skærm.</span><br>Klik på "%BUTTON_BACK%" for at vende tilbage til den forrige skærm.<br><span id="closeText">Hvis du beslutter at forlade installationsprocessen, klik på X.</span><span id="leaveText">Hvis du til sidst beslutter af forlade installationsprocessen, klik på "%BUTTON_LEAVE%".</span>
+
+[welcomePage]
+LOGO_CAPTION=%PRODUCT_TITLE%
+WELCOME_TITLE=Velkommen til %PRODUCT_TITLE%-downloaderen!
+WELCOME_TEXT=Den downloader %PRODUCT_TITLE% til din computer.<br />Vælg destinationsmappen og klik "%BUTTON_AGREE_NEXT%" for at fortsætte.
+QUICK_SPECS_TITLE=Kort specifikation
+QUICK_FILE_NAME=Filnavn:
+QUICK_FILE_SIZE=Filstørrelse:
+QUICK_VERSION=Version:
+QUICK_DATE_ADDED=Dato tilføjet:
+WELCOME_ADVANCED_LINK=
+CHOOSE_LANG=Vælg sprog:
+CUSTOM_INSTALL_DESC=Vælg hvor du ønsker programmet installeret:
+SYSTEM_REQUIREMENTS=<b>Systemkrav</b> <span id="changingRequirementsText"><a id="show" href="" target="_blank" onfocus="this.blur()" onclick="extdMainJs.toggleRequirements('show'); return false;">%SHOW%</a><a id="hide" href="" target="_blank" onfocus="this.blur()" onclick="extdMainJs.toggleRequirements('hide'); return false;">%HIDE%</a></span><span id="actualRequirements">%REQUIREMENTS%</span>
+SHOW=Vis...
+HIDE=Skjul...
+REQUIREMENTS=OS: Windows XP SP3, Windows Vista SP2, Windows 7, Windows 8.0, Windows 8.1 and Windows 10<br>CPU: Pentium processor at 90 MHz or higher<br>Memory: 16 MB RAM
+
+[settingsPage]
+CUSTOM_INSTALL_TITLE=%WELCOME_ADVANCED_LINK%
+CUSTOM_INSTALL_START_MENU=Opret adgang fra start-menu
+CUSTOM_INSTALL_DESKTOP=Opret ikon på skrivebord
+CUSTOM_INSTALL_QUICK_LAUNCH=Opret quick-start ikon
+CUSTOM_INSTALL_SPACE_AVAILABLE=Tilgængelig plads: 
+CUSTOM_INSTALL_SPACE_REQUIRED=Krævet plads: 
+CUSTOM_INSTALL_BROWSE=Gennemse...
+
+[progressPage]
+PROGRESS_TITLE=Din software downloades...
+PROGRESS_STAT_TEXT=ud af
+PROGRESS_STAT_FINISHED=Kopierer filer...
+PROGRESS_STATUS=Udført... %PROGRESS%%
+
+[finishPage]
+FINISH_TITLE=<span id="okDownload1">Færdig!</span><span id="badDownload1">undskyld.<br/>Deres download ufuldstændig.</span>
+FINISH_TEXT=<span id="okDownload2">Du har downloadet %PRODUCT_TITLE%. <span id="finishInstallNowText"><br />klik på "%BUTTON_INSTALL%" for at installere softwaren på din maskine.</span></span><span id="badDownload2"Ved at klikke acceptoyou accepterer at installere prosName og dens Vilkår for brug og Privacy Policy. Dette produkt er kompatibel med Windows-operativsystemet.</span>
+UNINSTALL_TEXT=<br/>For at afinstallere al software, der er installeret under denne installationsproces, gå til "Tilføj/fjern programmer" og klik på "%PRODUCT_TITLE% pakker".
+
+[errorPage]
+ERROR_TITLE=Fejl i internetforbindelse
+ERROR_TEXT=Vi kan ikke oprette forbindelse til download-serveren. Det ser ud til, at din internetforbindelse er nede eller at du har en firewall. <br /><br />Kontroller dine internet- og proxy-indstillinger og klik derefter på knappen "%BUTTON_TRYAGAIN%" nedenfor.
+
+[Buttons]
+BUTTON_BACK=Tilbage
+BUTTON_LATER=Senere
+BUTTON_CANCEL=Annuller
+BUTTON_CLOSE=Luk
+BUTTON_DECLINE=Afvis
+BUTTON_ACCEPT=Accepter
+BUTTON_INSTALL=Installer nu
+BUTTON_ACCEPT_INSTALL=Accepter & installer
+BUTTON_OPEN=Åben
+BUTTON_FINISH=Afslut
+BUTTON_TRYAGAIN=Forsøg igen
+BUTTON_LEAVE=Kun afbryd
+BUTTON_SKIP_ALL=Udelad alle
+MSG_STEP=Trin %X% af %Y%
+BUTTON_AGREE_NEXT=Næste
+BUTTON_NEXT=Fortsæt
+
+[Messages]
+MSG_EXIT=Er du sikker på, du vil afbryde installationen?
+MSG_CANT_EXIT=Vi er ikke i stand til at stoppe installationen på dette tidspunkt. Du kan altid afinstallere det, så snart installationen er færdig.
+MSG_NETWORK_ERROR=Opret forbindelse til internettet og klik på "Ok" for at fortsætte.
+MSG_EXTRACT_ERROR=Installationsprogrammet kunne ikke hente filerne.
+MSG_NOT_ENOUGH_SPACE=Der er ikke tilstrækkelig diskplads på det valgte drev.<br>Vælg venligst et andet drev.

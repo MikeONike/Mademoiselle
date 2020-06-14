@@ -1,0 +1,33 @@
+
+
+@media (min-width:768px) {
+
+    .blog-news {
+        padding: 4rem 0 ;
+        margin-bottom: 20rem;
+
+        .news-items {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: flex-start;
+            align-items: top;
+
+            .news-items-item {
+                // flex: 0 0 49%;
+                flex-basis: 49%;
+            }
+        }
+    }
+}
+
+@media (min-width:992px) {
+    .blog-news {
+        .news-items {
+            .news-items-item {
+                // flex: 0 0 32%;
+                flex-basis:32%;
+
+            }
+        }
+    }
+}

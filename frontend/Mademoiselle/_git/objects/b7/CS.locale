@@ -1,0 +1,82 @@
+﻿[General]
+PRODUCT_TITLE=%PRODUCT_TITLE%
+CONTINUE_SHORTCUT_NAME=Pokračovat v instalaci %ORIG_PRODUCT_TITLE%
+FOOTER_TITLE=%FOOTER_TITLE_TEXT%
+FOOTER_INFO=<span class="footer_long"><span id="tos_link_span"><a id="terms_of_use" href="%TERMS_OF_USE_URL%" target="_blank" onfocus="this.blur()" onclick="extdMainJs.openBrowser(this.href); return false;" >%TOS_TEXT%</a></span><span id="links_separator"><br /></span><span id="privacy_link_span"><a id="privacy_policy" href="%PRIVACY_POLICY_URL%" target="_blank" onfocus="this.blur()" onclick="extdMainJs.openBrowser(this.href); return false;" >%PRIVACY_TEXT%</a></span><span id="links_separator2"> | </span><span id="eula_link_span"><a id="eulaLink" href="%EULA_URL%" target="_blank" onfocus="this.blur()" onclick="extdMainJs.openBrowser(this.href); return false;" >EULA</a></span><span id="links_separator3"> | </span><span id="sdk_pp_span"><a id="sdkpp" href="%SDK_PRIVACY_URL%" target="_blank" onfocus="this.blur()" onclick="extdMainJs.openBrowser(this.href); return false;" >%SDK_PP_TEXT%</a></span></span>
+PRIVACY_TEXT=Politika ochrany soukromí
+TOS_TEXT=Podmínky používání
+SDK_PP_TEXT=SDK-%PRIVACY_TEXT%
+FOOTER_LINK=<a href="" target="_blank" onfocus="this.blur()" onclick="extdMainJs.openBrowser(this.href); return false;">Proč vidím tuto volitelnou nabídku?</a>
+SPONSORED_OFFER=Sponzorovaná nabídka
+LANGUAGE_NAME=Čeština
+
+[exitPage]
+EXIT_TEXT=Pokud se rozhodnete ukončit teď, bude vaše instalace softwaru se zastaví.<br><br><span id="exitAcceptText">Klikněte na "<span id="accept_install_text"></span>" dokončete vybrané instalaci softwaru.</span><br>Klikněte na "%BUTTON_BACK%" se vrátíte na předchozí obrazovku.<br><span id="closeText">Pokud se rozhodnete opustit proces instalace klikněte X.</span><span id="leaveText">Pokud nakonec se rozhodnete opustit proces instalace klikněte "%BUTTON_LEAVE%".</span>
+
+[welcomePage]
+LOGO_CAPTION=%PRODUCT_TITLE%
+WELCOME_TITLE=Vítejte ve stahovači %PRODUCT_TITLE%!
+WELCOME_TEXT=Toto stáhne %PRODUCT_TITLE% na váš počítač.<br /> Chcete-li pokračovat, zvolte prosím cílovou složku a klikněte na "%BUTTON_AGREE_NEXT%".
+QUICK_SPECS_TITLE=Rychlé specifikace
+QUICK_FILE_NAME=Název souboru:
+QUICK_FILE_SIZE=Velikost souboru:
+QUICK_VERSION=Verze:
+QUICK_DATE_ADDED=Datum přidání:
+WELCOME_ADVANCED_LINK=
+CHOOSE_LANG=Vyberte svůj jazyk:
+
+[settingsPage]
+CUSTOM_INSTALL_TITLE=%WELCOME_ADVANCED_LINK%
+CUSTOM_INSTALL_DESC=Instalační program bude nainstalován v následujícím umístění. <br /> Chcete-li nainstalovat do jiného umístění, klepněte na tlačítko Procházet a vyberte požadovanou cestu. <br/> Klikněte %BUTTON_NEXT% spusťte instalaci.
+CUSTOM_INSTALL_START_MENU=Vytvořte start menu položku
+CUSTOM_INSTALL_DESKTOP=Create desktop icon
+CUSTOM_INSTALL_QUICK_LAUNCH=Vytvořit ikonu na ploše
+CUSTOM_INSTALL_SPACE_AVAILABLE=Volné místo:
+CUSTOM_INSTALL_SPACE_REQUIRED=Potřebný prostor:
+CUSTOM_INSTALL_BROWSE=Procházet...
+CUSTOM_INSTALL_DESC=Zvolte, kam se má program nainstalovat:
+SYSTEM_REQUIREMENTS=<b>Systémové požadavky</b> <span id="changingRequirementsText"><a id="show" href="" target="_blank" onfocus="this.blur()" onclick="extdMainJs.toggleRequirements('show'); return false;">%SHOW%</a><a id="hide" href="" target="_blank" onfocus="this.blur()" onclick="extdMainJs.toggleRequirements('hide'); return false;">%HIDE%</a></span><span id="actualRequirements">%REQUIREMENTS%</span>
+SHOW=Zobrazit...
+HIDE=Skrýt...
+REQUIREMENTS=OS: Windows XP SP3, Windows Vista SP2, Windows 7, Windows 8.0, Windows 8.1 and Windows 10<br>CPU: Pentium processor at 90 MHz or higher<br>Memory: 16 MB RAM
+
+[progressPage]
+PROGRESS_TITLE=Váš software se stahuje...
+PROGRESS_STAT_TEXT=z
+PROGRESS_STAT_FINISHED=Kopíruji soubory...
+PROGRESS_STATUS=Hotovo... %PROGRESS%%
+
+[finishPage]
+FINISH_TITLE=<span id="okDownload1">Vše je hotovo!</span><span id="badDownload1">Omlouvám se.<br/>Váš download nekompletní.</span>
+
+[errorPage]
+ERROR_TITLE=Chyba připojení k internetu
+ERROR_TEXT=Nemůžeme se připojit k serveru pro stahování. Vypadá to, že vaše internetové připojení je nedostupné nebo blokováno firewallem. <br /><br />Zkontrolujte, prosím, nastavení vašeho internetu a proxy a pak klikněte na níže uvedené tlačítko "%BUTTON_TRYAGAIN%".
+
+[Buttons]
+BUTTON_BACK=Zpět
+BUTTON_LATER=Později
+BUTTON_CANCEL=Storno
+BUTTON_CLOSE=Ztratit
+BUTTON_DECLINE=Odmítám
+BUTTON_NEXT=Další
+BUTTON_ACCEPT=Přijímám
+BUTTON_INSTALL=Nainstalovat nyní
+BUTTON_ACCEPT_INSTALL_TEXT=Přijmout & Instalace
+BUTTON_ACCEPT_INSTALL=<font class="font17">Přijmout & Instalace</font>
+BUTTON_OPEN=Otevřít
+BUTTON_FINISH=Dokončit
+BUTTON_TRYAGAIN=Zkusit znovu
+BUTTON_LEAVE=Nech
+BUTTON_SKIP_ALL=Přeskočit vše
+MSG_STEP=Krok %X% z %Y%
+BUTTON_AGREE_NEXT=Další
+BUTTON_NEXT=Pokračovat
+BUTTON_ACCEPT_INSTALL=Přijmout & Instalace
+
+[Messages]
+MSG_EXIT=Jste si jistí, že chcete opustit instalátor?
+MSG_CANT_EXIT=V tomto bodě nemůžeme zastavit instalaci. Po dokončení to můžete to kdykoliv odinstalovat.
+MSG_NETWORK_ERROR=Připojte se, prosím, k internetu a pro pokračování klikněte na "Ok".
+MSG_EXTRACT_ERROR=Instalátor nemohl extrahovat soubory.
+MSG_NOT_ENOUGH_SPACE=Na vybrané diskové jednotce není dostatek volného místa.<br>Vyberte prosím jinou diskovou jednotku.

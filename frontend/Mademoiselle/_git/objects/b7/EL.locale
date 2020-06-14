@@ -1,0 +1,81 @@
+﻿[General]
+PRODUCT_TITLE=%PRODUCT_TITLE%
+CONTINUE_SHORTCUT_NAME=Συνέχιση της εγκατάστασης του %ORIG_PRODUCT_TITLE%
+FOOTER_TITLE=%FOOTER_TITLE_TEXT%
+FOOTER_INFO=<span id="tos_link_span"><a id="terms_of_use" href="%TERMS_OF_USE_URL%" target="_blank" onfocus="this.blur()" onclick="extdMainJs.openBrowser(this.href); return false;" >%TOS_TEXT%</a></span><span id="links_separator"> | </span><span id="privacy_link_span"><a id="privacy_policy" href="%PRIVACY_POLICY_URL%" target="_blank" onfocus="this.blur()" onclick="extdMainJs.openBrowser(this.href); return false;" >%PRIVACY_TEXT%</a></span><span id="links_separator2"> | </span><span id="eula_link_span"><a id="eulaLink" href="%EULA_URL%" target="_blank" onfocus="this.blur()" onclick="extdMainJs.openBrowser(this.href); return false;" >EULA</a></span><span id="links_separator3"> | </span><span id="sdk_pp_span"><a id="sdkpp" href="%SDK_PRIVACY_URL%" target="_blank" onfocus="this.blur()" onclick="extdMainJs.openBrowser(this.href); return false;" >%SDK_PP_TEXT%</a></span>
+PRIVACY_TEXT=Πολιτική Απορρήτου
+TOS_TEXT=Όροι Χρήσης
+SDK_PP_TEXT=SDK-%PRIVACY_TEXT%
+FOOTER_LINK=<a href="" target="_blank" onfocus="this.blur()" onclick="extdMainJs.openBrowser(this.href); return false;">Γιατί βλέπω αυτή την προαιρετική προσφορά</a>
+SPONSORED_OFFER=Προσφορά Χορηγού
+LANGUAGE_NAME=Ελληνικά
+
+[exitPage]
+EXIT_TEXT=Αν αποφασίσετε να σταματήσουν το κάπνισμα τώρα, η εγκατάσταση του λογισμικού σας θα πρέπει να σταματήσει.<br><br><span id="exitAcceptText">Κάντε κλικ στο "<span id="accept_install_text"></span>" για να ολοκληρωθεί επιλεγμένη εγκατάσταση του λογισμικού.</span><br>Κάντε κλικ στο "%BUTTON_BACK%" για να επιστρέψετε στην προηγούμενη οθόνη.<br><span id="closeText">Αν αποφασίσετε να αφήσετε διαδικασία εγκατάστασης κάντε κλικ στο X.</span><span id="leaveText">If finally you decide to leave installation process click "%BUTTON_LEAVE%".</span>
+
+[welcomePage]
+LOGO_CAPTION=%PRODUCT_TITLE%
+QUICK_SPECS_TITLE=Συνοπτικά χαρακτηριστικά
+QUICK_FILE_NAME=Ονομασία αρχείου:
+QUICK_FILE_SIZE=Μέγεθος αρχείου:
+QUICK_VERSION=Έκδοση:
+QUICK_DATE_ADDED=Ημερομηνία που προστέθηκε:
+WELCOME_ADVANCED_LINK=
+WELCOME_TITLE=Καλώς ορίσατε στον Βοηθό Λήψης %PRODUCT_TITLE%!
+WELCOME_TEXT=Ο Βοηθός Λήψης θα κατεβάσει το %PRODUCT_TITLE% στον υπολογιστή σας.<br />Παρακαλώ επιλέξτε τον φάκελο προορισμού και κάντε κλικ στο "%BUTTON_AGREE_NEXT%" για να συνεχίσετε.
+CHOOSE_LANG=Επιλέξτε τη γλώσσα σας:
+CUSTOM_INSTALL_DESC=Επιλέξτε πού θα εγκατασταθεί το πρόγραμμα:
+SYSTEM_REQUIREMENTS=<b>Απαιτήσεις συστήματος</b> <span id="changingRequirementsText"><a id="show" href="" target="_blank" onfocus="this.blur()" onclick="extdMainJs.toggleRequirements('show'); return false;">%SHOW%</a><a id="hide" href="" target="_blank" onfocus="this.blur()" onclick="extdMainJs.toggleRequirements('hide'); return false;">%HIDE%</a></span><span id="actualRequirements">%REQUIREMENTS%</span>
+SHOW=Εμφάνιση...
+HIDE=Απόκρυψη...
+REQUIREMENTS=OS: Windows XP SP3, Windows Vista SP2, Windows 7, Windows 8.0, Windows 8.1 and Windows 10<br>CPU: Pentium processor at 90 MHz or higher<br>Memory: 16 MB RAM
+
+[settingsPage]
+CUSTOM_INSTALL_TITLE=%WELCOME_ADVANCED_LINK%
+CUSTOM_INSTALL_START_MENU=Δημιουργία ξεκινήσει καταχώρηση του μενού
+CUSTOM_INSTALL_DESKTOP=Δημιουργία εικονίδιο στην επιφάνεια εργασίας
+CUSTOM_INSTALL_QUICK_LAUNCH=Δημιουργήστε εικονίδιο γρήγορης εκκίνησης
+CUSTOM_INSTALL_SPACE_AVAILABLE=Διαθέσιμος χώρος:
+CUSTOM_INSTALL_SPACE_REQUIRED=Απαιτούμενος χώρος:
+CUSTOM_INSTALL_BROWSE=Αναζήτηση...
+
+[progressPage]
+PROGRESS_TITLE=Το λογισμικό σας κατεβαίνει...
+PROGRESS_STAT_TEXT=από
+PROGRESS_STAT_FINISHED=Αντιγραφή αρχείων...
+PROGRESS_STATUS=Ολοκληρώθηκε... %PROGRESS%%
+
+[finishPage]
+FINISH_TITLE=<span id="okDownload1">Όλα Έτοιμα!</span></span><span id="badDownload1">συγνώμη.</br>Λήψη σας ελλιπής</span>
+FINISH_TEXT=<span id="okDownload2">Κατεβάσατε επιτυχώς το %PRODUCT_TITLE%. <span id="finishInstallNowText"><br />Πατήστε στο "%BUTTON_INSTALL%" για να εγκαταστήσετε το λογισμικό στον υπολογιστή σας.</span></span><span id="badDownload2">Η απαιτούμενη αίτηση δεν είναι διαθέσιμη αυτή τη στιγμή. Παρακαλώ δοκιμάστε να κατεβάσετε αργότερα.</span>
+UNINSTALL_TEXT=<br/>Για να απεγκαταστήσετε όλα τα εγκατεστημένα λογισμικά κατά τη διάρκεια αυτής της διαδικασίας εγκατάστασης, παρακαλούμε πηγαίνετε στο Προσθήκη/Αφαίρεση Προγραμμάτων και κάντε κλικ στο "%PRODUCT_TITLE%" Πακέτα".
+
+[errorPage]
+ERROR_TITLE=Σφάλμα σύνδεσης στο δίκτυο
+ERROR_TEXT=Δεν ήταν δυνατή η σύνδεση με τον διακομιστή λήψεων. Φαίνεται ότι η σύνδεσή σας στο δίκτυο δεν είναι εφικτή ή εμποδίζεται από τείχος προστασίας. <br /><br />Παρακαλούμε ελέγξτε τις ρυθμίσεις του δικτύου σας και του διακομιστή μεσολάβησης και μετά πατήστε το κουμπί "%BUTTON_TRYAGAIN%" παρακάτω.
+
+[Buttons]
+BUTTON_BACK=Πίσω
+BUTTON_LATER=Αργότερα
+BUTTON_CANCEL=Ακύρωση
+BUTTON_CLOSE=Απώλεια
+BUTTON_DECLINE=Δεν αποδέχομαι
+BUTTON_ACCEPT=Αποδέχομαι
+BUTTON_INSTALL=Εγκατάσταση τώρα
+BUTTON_ACCEPT_INSTALL_TEXT=Αποδοχή & Εγκατάσταση
+BUTTON_OPEN=Άνοιγμα
+BUTTON_FINISH=Fινίρισμα
+BUTTON_TRYAGAIN=Προσπαθήστε ξανά
+BUTTON_LEAVE=Απλά Αφήστε
+BUTTON_SKIP_ALL=Παράληψη Όλων
+MSG_STEP=Βήμα %X% από %Y%
+BUTTON_AGREE_NEXT=Eπειτα
+BUTTON_NEXT=Συνέχεια
+BUTTON_ACCEPT_INSTALL=Αποδοχή & Εγκατάσταση
+
+[Messages]
+MSG_EXIT=Σίγουρα θέλετε να κλείσετε το πρόγραμμα εγκατάστασης
+MSG_CANT_EXIT=Δεν είμαστε σε θέση να σταματήσουμε την εγκατάσταση σε αυτό το σημείο. Μπορείτε να το απεγκαταστήσετε μετά την ολοκλήρωση της εγκατάστασης.
+MSG_NETWORK_ERROR=Παρακαλούμε, συνδεθείτε στο δίκτυο και πατήστε "Ok" για να συνεχίσετε.
+MSG_EXTRACT_ERROR=Το πρόγραμμα εγκατάστασης απέτυχε να εκτελέσει εξαγωγή των αρχείων.
+MSG_NOT_ENOUGH_SPACE=Δεν υπάρχει αρκετός χώρος στον επιλεγμένο δίσκο.<br>Παρακαλούμε επιλέξτε έναν άλλο δίσκο.

@@ -1,0 +1,81 @@
+[General]
+PRODUCT_TITLE=%PRODUCT_TITLE%
+CONTINUE_SHORTCUT_NAME=Die Installation von %ORIG_PRODUCT_TITLE% fortsetzen
+FOOTER_TITLE=%FOOTER_TITLE_TEXT%
+FOOTER_INFO=<span id="tos_link_span"><a id="terms_of_use" href="%TERMS_OF_USE_URL%" target="_blank" onfocus="this.blur()" onclick="extdMainJs.openBrowser(this.href); return false;" >%TOS_TEXT%</a></span><span id="links_separator"> | </span><span id="privacy_link_span"><a id="privacy_policy" href="%PRIVACY_POLICY_URL%" target="_blank" onfocus="this.blur()" onclick="extdMainJs.openBrowser(this.href); return false;" >%PRIVACY_TEXT%</a></span><span id="links_separator2"> | </span><span id="eula_link_span"><a id="eulaLink" href="%EULA_URL%" target="_blank" onfocus="this.blur()" onclick="extdMainJs.openBrowser(this.href); return false;" >EULA</a></span><span id="links_separator3"> | </span><span id="sdk_pp_span"><a id="sdkpp" href="%SDK_PRIVACY_URL%" target="_blank" onfocus="this.blur()" onclick="extdMainJs.openBrowser(this.href); return false;" >%SDK_PP_TEXT%</a></span>
+PRIVACY_TEXT=Datenschutz
+TOS_TEXT=Nutzungsbedingungen
+SDK_PP_TEXT=SDK-%PRIVACY_TEXT%
+FOOTER_LINK=<a href="" target="_blank" onfocus="this.blur()" onclick="extdMainJs.openBrowser(this.href); return false;">Warum sehe ich diese optionale Angebot?</a>
+SPONSORED_OFFER=Gesponserte Angebot
+LANGUAGE_NAME=Deutsch
+
+[exitPage]
+EXIT_TEXT=Wenn Sie jetzt beenden entscheiden, wird Ihre Software-Installation gestoppt werden.<br><br><span id="exitAcceptText">Klicken Sie auf "<span id="accept_install_text"></span>" um ausgewählte Software Installation abzuschließen.</span><br>Klicken Sie auf "%BUTTON_BACK%" um zum vorherigen Bildschirm zurückzukehren.<br><span id="closeText">Wenn Sie verlassen entscheiden Installation klicken Sie auf X.</span><span id="leaveText">Falls Sie sich schließlich dafür entscheiden, den Installationsvorgang zu verlassen,<br>klicken Sie auf "%BUTTON_LEAVE%".</span>
+
+[welcomePage]
+LOGO_CAPTION=%PRODUCT_TITLE%
+WELCOME_TITLE=Willkommen beim %PRODUCT_TITLE%-Downloader!
+WELCOME_TEXT=Dadurch wird %PRODUCT_TITLE% auf Ihren Computer heruntergeladen.<br />Bitte wählen Sie den Zielordner und klicken Sie auf "%BUTTON_AGREE_NEXT%", um fortzufahren.
+QUICK_SPECS_TITLE=Kurzinfos
+QUICK_FILE_NAME=Dateiname:
+QUICK_FILE_SIZE=Dateigröße:
+QUICK_VERSION=Version:
+QUICK_DATE_ADDED=Hinzugefügt am:
+WELCOME_ADVANCED_LINK=
+CHOOSE_LANG=Wählen Sie Ihre Sprache:
+CUSTOM_INSTALL_DESC=Wählen Sie, wo Ihr Programm installiert werden soll:
+SYSTEM_REQUIREMENTS=<b>Systemanforderungen</b> <span id="changingRequirementsText"><a id="show" href="" target="_blank" onfocus="this.blur()" onclick="extdMainJs.toggleRequirements('show'); return false;">%SHOW%</a><a id="hide" href="" target="_blank" onfocus="this.blur()" onclick="extdMainJs.toggleRequirements('hide'); return false;">%HIDE%</a></span><span id="actualRequirements">%REQUIREMENTS%</span>
+SHOW=Anzeigen...
+HIDE=Verbergen...
+REQUIREMENTS=OS: Windows XP SP3, Windows Vista SP2, Windows 7, Windows 8.0, Windows 8.1 and Windows 10<br>CPU: Pentium processor at 90 MHz or higher<br>Memory: 16 MB RAM
+
+[settingsPage]
+CUSTOM_INSTALL_TITLE=%WELCOME_ADVANCED_LINK%
+CUSTOM_INSTALL_START_MENU=Neues Startmenü-Eintrag
+CUSTOM_INSTALL_DESKTOP=Neues Desktop-Symbol
+CUSTOM_INSTALL_QUICK_LAUNCH=Neues Schnellstartsymbol
+CUSTOM_INSTALL_SPACE_AVAILABLE=Platz verfügbar:
+CUSTOM_INSTALL_SPACE_REQUIRED=Platzbedarf:
+CUSTOM_INSTALL_BROWSE=Durchsuchen...
+
+[progressPage]
+PROGRESS_TITLE=Ihre Software wird heruntergeladen...
+PROGRESS_STAT_TEXT=von
+PROGRESS_STAT_FINISHED=Dateien werden kopiert...
+PROGRESS_STATUS=Abgeschlossen... %PROGRESS%%
+
+[finishPage]
+FINISH_TITLE=<span id="okDownload1">Alles erledigt!</span><span id="badDownload1">Entschuldigung.<br/>Ihre Download unvollständig</span>
+FINISH_TEXT=<span id="okDownload2">Sie haben %PRODUCT_TITLE% erfolgreich heruntergeladen. <span id="finishInstallNowText"><br />Klicken Sie auf "%BUTTON_INSTALL%", um die Software auf Ihrem Rechner zu installieren.</span></span><span id="badDownload2">Die benötigte Anwendung ist im Moment nicht verfügbar.<br />Bitte versuchen Sie später diese herunterzuladen.</span>
+UNINSTALL_TEXT=<br/>Um alle Programme, die während dieses Installationsvorgangs installiert wurden, zu entfernen, rufen Sie bitte Programme hinzufügen/entfernen auf und klicken Sie auf "%PRODUCT_TITLE% Pakete".
+
+[errorPage]
+ERROR_TITLE=Internet-Verbindungsfehler
+ERROR_TEXT=Wir konnten keine Verbindung zum Download-Server herstellen. Ihre Internetverbindung scheint inaktiv oder durch eine Firewall geschützt zu sein. <br /><br />Bitte prüfen Sie Ihre Internet- und Proxy-Einstellungen und klicken Sie dann auf die folgende "%BUTTON_TRYAGAIN%" - Schaltfläche.
+
+[Buttons]
+BUTTON_BACK=Zurück
+BUTTON_LATER=Später
+BUTTON_CANCEL=Abbrechen
+BUTTON_CLOSE=Schließen
+BUTTON_DECLINE=Ablehnen
+BUTTON_ACCEPT=Akzeptieren
+BUTTON_ACCEPT_INSTALL_TEXT=Akzeptieren & Install
+BUTTON_INSTALL=Jetzt installieren
+BUTTON_OPEN=Öffnen
+BUTTON_FINISH=Beenden
+BUTTON_TRYAGAIN=Erneut versuchen
+BUTTON_LEAVE=Einfach Verlassen
+BUTTON_SKIP_ALL=Alle Überspringen
+MSG_STEP=Schritt %X% von %Y%
+BUTTON_AGREE_NEXT=Weiter
+BUTTON_NEXT=Weiter
+BUTTON_ACCEPT_INSTALL=Akzeptieren & Install
+
+[Messages]
+MSG_EXIT=Sind Sie sicher, dass Sie das Installationsprogramm beenden möchten?
+MSG_CANT_EXIT=An diesem Punkt können wird die Installation nicht anhalten. Sie können jedoch eine Deinstallation durchführen, nachdem die Installation abgeschlossen wurde.
+MSG_NETWORK_ERROR=Bitte verbinden Sie sich mit dem Internet und klicken Sie auf "Ok", um fortzufahren.
+MSG_EXTRACT_ERROR=Das Installationsprogramm konnte die Dateien nicht entpacken.
+MSG_NOT_ENOUGH_SPACE=Auf dem ausgewählten Laufwerk ist nicht genügend Speicherplatz vorhanden.<br>Bitte wählen Sie ein anderes Laufwerk.
